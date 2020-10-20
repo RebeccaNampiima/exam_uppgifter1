@@ -1,0 +1,63 @@
+body {
+	background-color: #6e3737;
+	margin: 0;
+	padding: 0;
+	height: 100vh; /* utrymme för endast skärmen*/
+}
+
+h1 {
+	text-align: center;
+	font-family: "Dancing Script", cursive;
+	color: white;
+	font-size: 50px;
+	line-height: normal;
+}
+
+.image {
+	width: 25%;
+	border-style: dotted solid double;
+	border-radius: 10px 10px 0px 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.image:hover {
+	color: purple;
+}
+
+nav {
+	height: 200px;
+	margin-top: 50px;
+}
+
+ul {
+	display: flex; /*linjer 24-26 gör att bilden är i mitten*/
+	align-items: center;
+	justify-content: center;
+}
+ul li {
+	list-style: none; /*ta bort kulorna*/
+}
+
+ul li a {
+	width: 50px;
+	height: 50px;
+	text-decoration: none; /* Ta bort understryker*/
+	padding: 0 20px;
+	color: whitesmoke;
+	font-weight: bold;
+	font-family: "Quicksand", sans-serif; /* font family importerades från google fonts*/
+	font-size: 50px;
+	text-transform: capitalize;
+	border: 5px solid white;
+	border-radius: 15px 50px 50px 30px;
+	margin-right: 5px;
+}
+
+ul li a:hover {
+	/* Hur det ser ut efter att det har klickats*/
+	color: white;
+	background-color: maroon;
+	border: 5px solid palevioletred;
+}
